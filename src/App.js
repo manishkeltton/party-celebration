@@ -1,16 +1,15 @@
 import './App.css';
 import Footer from './components/Home/footer/Footer';
 import NavBar from './components/Home/navbar/NavBar';
-import FIrstSection from './components/Home/section/FIrstSection';
-import SmallerCarousel from './components/Home/section/SmallerCarousel';
+import FirstSection from './components/Home/section/CarouselSection';
+import MiddleSection from './components/Home/section/MiddleSection';
 
 function App() {
   return (
     <div>
       <NavBar />
-      <SmallerCarousel />
-      <FIrstSection />
-      <Footer />
+      <FirstSection />
+      <MiddleSection />
     </div>
   );
 }
