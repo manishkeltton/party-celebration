@@ -1,14 +1,16 @@
 import React from "react";
+import "./NavBar.css";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div>
+    <>
       <nav
         className="navbar navbar-expand-lg navbar-light bg-gradient"
         style={{ backgroundColor: "#fd7e14" }}
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <Link class="navbar-brand" to="#">
             <img
               src="/docs/5.0/assets/brand/bootstrap-logo.svg"
               alt=""
@@ -17,7 +19,7 @@ const NavBar = () => {
               class="d-inline-block align-text-top"
             />
             Logo
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -33,121 +35,121 @@ const NavBar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item dropdown">
                 {" "}
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
-                  href="#"
+                  to="#"
                   role="button"
                   aria-expanded="false"
                 >
                   Birthday
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/birthdayindoor">
                       Indoor
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/birthdayoutdoor">
                       Outdoor
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
                 {" "}
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
-                  href="#"
+                  to="#"
                   role="button"
                   aria-expanded="false"
                 >
                   Anniversary
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/anniversaryindoor">
                       Indoor
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/anniversaryoutdoor">
                       Outdoor
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
                 {" "}
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
-                  href="#"
+                  to="#"
                   role="button"
                   aria-expanded="false"
                 >
                   Proposal
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/proposalindoor">
                       Indoor
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/proposaloutdoor">
                       Outdoor
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
                 {" "}
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
-                  href="#"
+                  to="#"
                   role="button"
                   aria-expanded="false"
                 >
                   Dating
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/datingindoor">
                       Indoor
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/datingoutdoor">
                       Outdoor
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
                 {" "}
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
-                  href="#"
+                  to="#"
                   role="button"
                   aria-expanded="false"
                 >
                   Surprises
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/surprisesindoor">
                       Indoor
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/surprisesoutdoor">
                       Outdoor
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -166,7 +168,7 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 
