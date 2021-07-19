@@ -2,11 +2,11 @@ import React from "react";
 
 const MiddleSection = () => {
   const celebrationPart = [
-    { id: 1, celeb: "Bithday", img:"https://deowgxgt4vwfe.cloudfront.net/uploads/1604994759_small.jpg" },
-    { id: 2, celeb: "Anniversary", img:"https://deowgxgt4vwfe.cloudfront.net/uploads/1604994759_small.jpg" },
-    { id: 3, celeb: "Proposal", img:"https://deowgxgt4vwfe.cloudfront.net/uploads/1604994759_small.jpg" },
-    { id: 4, celeb: "Dating", img:"https://deowgxgt4vwfe.cloudfront.net/uploads/1604994759_small.jpg" },
-    { id: 5, celeb: "Surprise", img:"https://deowgxgt4vwfe.cloudfront.net/uploads/1604994759_small.jpg" },
+    { id: 1, celeb: "Bithday", img:"https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" },
+    { id: 2, celeb: "Anniversary", img:"https://images.pexels.com/photos/7826299/pexels-photo-7826299.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" },
+    { id: 3, celeb: "Proposal", img:"https://images.pexels.com/photos/3038145/pexels-photo-3038145.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" },
+    { id: 4, celeb: "Dating", img:"https://images.pexels.com/photos/842546/pexels-photo-842546.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" },
+    { id: 5, celeb: "Surprise", img:"https://images.pexels.com/photos/2253849/pexels-photo-2253849.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" },
   ];
 
   return (
